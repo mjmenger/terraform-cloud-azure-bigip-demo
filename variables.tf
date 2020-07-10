@@ -89,7 +89,7 @@ variable "publickeyfile" {
 variable instance_type { default = "Standard_DS3_v2" }
 variable image_name { default = "f5-bigip-virtual-edition-25m-best-hourly" }
 variable product { default = "f5-big-ip-best" }
-variable bigip_version { default = "14.1.003000" }
+variable bigip_version { default = "14.1.206000" }
 
 # remove when 15.1 is in the marketplace
 variable image_id { default = "/subscriptions/aacd7ba7-e47c-4cb7-a8b7-90f81fdd3865/resourceGroups/cody-rg/providers/Microsoft.Compute/galleries/WWCloudSA/images/f5-bigip-15.1" }
