@@ -12,7 +12,7 @@ terraform {
     backend "remote" {
         organization = "f5-mjmenger"
         workspaces {
-            name = "my-workspace-name"
+            name = "terraform-cloud-azure-bigip-demo-production"
         }
     }
 }
